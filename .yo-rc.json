@@ -1,0 +1,12 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "ukg",
+      "unitTestsEnabled": true,
+      "lintingSupport": false,
+      "useAzureAppInsights": false
+    },
+    "libraryName": "knowyourmeet",
+    "generator-version": "4.1.0"
+  }
+}

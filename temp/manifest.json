@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "3659e4d0-1f5b-11ee-b6bb-5b479652660f",
+  "version": "0.0.1",
+  "packageName": "knowyourmeet",
+  "developer": {
+    "name": "ukg",
+    "websiteUrl": "https://2fc4-158-228-253-35.ngrok-free.app",
+    "privacyUrl": "https://2fc4-158-228-253-35.ngrok-free.app/privacy.html",
+    "termsOfUseUrl": "https://2fc4-158-228-253-35.ngrok-free.app/tou.html"
+  },
+  "name": {
+    "short": "knowyourmeet",
+    "full": "knowyourmeet"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://2fc4-158-228-253-35.ngrok-free.app/knowyourmeetTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ]
+    }
+  ],
+  "staticTabs": [{
+    "entityId": "knowyourmeetTab",
+    "name": "Knowyourmeet Tab ",
+    "contentUrl": "https://2fc4-158-228-253-35.ngrok-free.app/knowyourmeetTab/knowyourmeet.html",
+    "websiteUrl": "https://2fc4-158-228-253-35.ngrok-free.app",
+    "scopes": [
+      "team",
+    "personal"]
+}],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "2fc4-158-228-253-35.ngrok-free.app"
+  ],
+  "showLoadingIndicator": true,
+  "isFullScreen": false
+}
